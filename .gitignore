@@ -1,0 +1,17 @@
+# Node.js dependencies
+node_modules/
+package-lock.json
+
+# Angular build outputs
+dist/
+out-tsc/
+.angular/
+
+# Environment files
+src/environments/environment*.ts
+
+# Editor & System Files
+.vscode/
+.idea/
+*.log
+.DS_Store
