@@ -15,3 +15,4 @@ src/environments/environment*.ts
 .idea/
 *.log
 .DS_Store
+#test

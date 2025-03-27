@@ -4,12 +4,12 @@ const wss = new WebSocket.Server({ port: 3000 });
 let messageHistory = []; 
 
 wss.on('connection', ws => {
-  console.log('New client connected');
+  console.log('New client connected'); //
 
   ws.send(JSON.stringify({ type: "history", messages: messageHistory }));
 
   ws.on('message', data => {
-    try {
+    try { 
       let parsedData = JSON.parse(data);
       
       let fullMessage = {
